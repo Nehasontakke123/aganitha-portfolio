@@ -53,6 +53,38 @@
             font-weight: 600;
         }
         
+        .live-demo-banner {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 30px 40px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .live-demo-button {
+            display: inline-block;
+            background: white;
+            color: #f5576c;
+            padding: 15px 40px;
+            margin-top: 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 700;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .live-demo-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        .live-demo-button:before {
+            content: "🚀 ";
+            font-size: 20px;
+        }
+        
         .section {
             padding: 40px;
             border-bottom: 1px solid #e0e0e0;
@@ -242,6 +274,23 @@
                 <span class="badge">USGS API</span>
                 <span class="badge">Tailwind CSS</span>
             </div>
+        </div>
+
+        <!-- Live Demo Banner -->
+        <div class="live-demo-banner">
+            <h2 style="font-size: 32px; margin-bottom: 15px; font-weight: 700;">✨ See It Live in Action! ✨</h2>
+            <p style="font-size: 18px; margin-bottom: 10px; opacity: 0.95;">
+                Experience the full-featured Earthquake Visualizer application deployed on Vercel
+            </p>
+            <a href="https://aganitha-fullstack-assignment.vercel.app/" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="live-demo-button">
+                VIEW LIVE APPLICATION
+            </a>
+            <p style="font-size: 14px; margin-top: 15px; opacity: 0.9;">
+                🌐 <strong>Production URL:</strong> aganitha-fullstack-assignment.vercel.app
+            </p>
         </div>
 
         <!-- Executive Summary -->

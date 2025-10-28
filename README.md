@@ -10,6 +10,21 @@ A comprehensive portfolio documentation showcasing a **Real-Time Seismic Activit
 
 ---
 
+## 🚀 Live Application
+
+### ✨ **[VIEW LIVE DEMO →](https://aganitha-fullstack-assignment.vercel.app/)**
+
+**Production URL:** https://aganitha-fullstack-assignment.vercel.app/
+
+Experience the fully deployed Earthquake Visualizer with:
+- 🗺️ Real-time earthquake data from USGS API
+- 🎨 Interactive map visualization with Leaflet
+- 🔍 Advanced filtering and search capabilities
+- 📱 Fully responsive design across all devices
+- ⚡ Live data updates and performance optimization
+
+---
+
 ## 📋 About This Project
 
 This repository contains a **professional portfolio document** that showcases the development of an Earthquake Visualizer web application. The project demonstrates expertise in full-stack web development, API integration, geospatial visualization, and modern React patterns.
@@ -137,11 +152,14 @@ This project showcases proficiency in:
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Deployments
 
-> **Note**: This repository contains the portfolio documentation. For the actual Earthquake Visualizer application, please refer to the source code repository.
+### 🎯 **Live Application**
+The full Earthquake Visualizer application is live and accessible at:
+**[https://aganitha-fullstack-assignment.vercel.app/](https://aganitha-fullstack-assignment.vercel.app/)**
 
-To host this portfolio online using **GitHub Pages**:
+### 📄 **Portfolio Documentation**
+To host this portfolio documentation online using **GitHub Pages**:
 
 1. Go to **Settings** → **Pages**
 2. Select **master** branch as source
